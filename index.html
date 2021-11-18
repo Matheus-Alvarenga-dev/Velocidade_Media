@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocidade Média</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Calculadora </div>
+
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é o seu peso (kg)? Ex: 70" type="number" id='peso' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é a distância percorrida (km)? Ex: 5km"  type="number" id='distância'required="required">
+        </div>
+
+        <div class="input">
+            <input  placeholder="Qual é o tempo de treino (hr:mn:seg)? Ex: 3:23:40"  type="number" id='tempo'required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! O caso algo esteja errado deve ser comunicado à profissional de saúde. </footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
